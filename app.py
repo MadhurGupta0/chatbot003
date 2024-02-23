@@ -42,7 +42,10 @@ with st.sidebar:
         llm="meta/codellama-70b-instruct:a279116fe47a0f65701a8817188601e2fe8f4b9e04a518789655ea7b995851bf"
     #clear CHAT history button on slider
     def clear_chat_history():
+      if replicate_api:
         st.session_state.messages = [{"role": "assistant", "content": "How may I assist you today?"}]
+      else :
+          st.session_state.messages=[{"role": "assistant", "content": "HI, I Will Copy YOU "}]
     st.button('Clear Chat History', on_click=clear_chat_history)
 if replicate_api:
     if "messages" not in st.session_state:
@@ -91,7 +94,7 @@ if replicate_api:
           st.session_state.messages.append({"role": "assistant", "content": full_response})
 else:
     if "messages" not in st.session_state:
-        st.session_state.messages = []
+        st.session_state.messages = [{"role": "assistant", "content": "Hi ,I Will Copy YOU"}]
 
     for message in st.session_state.messages:
         with st.chat_message(message["role"]):
