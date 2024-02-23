@@ -52,7 +52,7 @@ with st.sidebar:
 if replicate_api:
     if "messages" not in st.session_state:
         st.session_state.messages = [{"role": "assistant", "content": "Hi, How May I Help You."}]
-    st.session_state.messages[0]=[{"role": "assistant", "content": "Hi, How May I Help You."}]
+    st.session_state.messages[0]={"role": "assistant", "content": "Hi, How May I Help You."}
     for message in st.session_state.messages:
         with st.chat_message(message["role"]):
             st.markdown(message["content"])
