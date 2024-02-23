@@ -45,11 +45,11 @@ with st.sidebar:
       if replicate_api:
         st.session_state.messages = [{"role": "assistant", "content": "How may I assist you today?"}]
       else :
-          st.session_state.messages=[{"role": "assistant", "content": "HI, I Will Copy YOU "}]
+          st.session_state.messages=[{"role": "assistant", "content": "HI, I Will Copy YOU."}]
     st.button('Clear Chat History', on_click=clear_chat_history)
 if replicate_api:
     if "messages" not in st.session_state:
-        st.session_state.messages = [{"role": "assistant", "content": "Hi, How May I Help You"}]
+        st.session_state.messages = [{"role": "assistant", "content": "Hi, How May I Help You."}]
     for message in st.session_state.messages:
         with st.chat_message(message["role"]):
             st.markdown(message["content"])
@@ -94,7 +94,7 @@ if replicate_api:
           st.session_state.messages.append({"role": "assistant", "content": full_response})
 else:
     if "messages" not in st.session_state:
-        st.session_state.messages = [{"role": "assistant", "content": "Hi ,I Will Copy YOU"}]
+        st.session_state.messages = [{"role": "assistant", "content": "Hi , I Will Copy YOU."}]
 
     for message in st.session_state.messages:
         with st.chat_message(message["role"]):
