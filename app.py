@@ -4,6 +4,8 @@ import requests as res
 from streamlit_lottie import st_lottie
 from pathlib import Path
 import os
+st.set_page_config(page_title="AI Chatbot",page_icon="🤖")
+
 llm=""
 st.title("Chatbot")
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
