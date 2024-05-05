@@ -4,6 +4,8 @@ Welcome to AI Chatbot/Copybot, where intelligent conversations meet continuous i
 
 Engage in meaningful discussions with our AI-powered chatbot, backed by the cutting-edge Llama 2 API and developed using Python's Streamlit framework for a seamless user experience.
 
+
+
 Features:
 
 1.AI Chatbot Interaction: Have insightful conversations with our AI chatbot, which utilizes advanced NLP techniques for accurate and context-aware responses.
@@ -18,6 +20,8 @@ Features:
 
 6.Seamless Integration: Get accurate and up-to-date responses across various topics, thanks to our seamless integration with the Llama 2 API.
 
+
+
 How It Works:
 
 >User Input: Type your questions or messages into the chat interface.
@@ -27,6 +31,8 @@ How It Works:
 >AI Processing: Once the API token is provided, select the desired AI model size for customized responses.
 
 >Real-Time Interaction: Engage in real-time conversations with our AI chatbot, receiving informative and engaging responses.
+
+
 
 Why Choose AI Chatbot/Copybot:
 
@@ -39,6 +45,8 @@ Why Choose AI Chatbot/Copybot:
 ~Reliable Backend: Our Python-powered backend ensures smooth and efficient operation of the chatbot.
 
 ~Explore the future of conversational AI with AI Chatbot/Copybot. Start chatting now and experience the power of intelligent interaction!
+
+
 
 How to Get the API Token:
 
