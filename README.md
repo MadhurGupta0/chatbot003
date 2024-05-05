@@ -16,8 +16,11 @@ Features:
 How It Works:
 
 >User Input: Type your questions or messages into the chat interface.
+
 >Echo Mode: Messages are echoed back until the API token is entered, ensuring continuous interaction.
+
 >AI Processing: Once the API token is provided, select the desired AI model size for customized responses.
+
 >Real-Time Interaction: Engage in real-time conversations with our AI chatbot, receiving informative and engaging responses.
 
 Why Choose AI Chatbot/Copybot:
